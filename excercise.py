@@ -1,13 +1,13 @@
 digits = ['1','2','3','4','5','6','7','8','9']
 en = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 fr = ['un','deux','trois','quatre','cinq','six','sept','huit','neuf']
-
+sp = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'whoknows']
 
 new_dictionary = {}
 num = len(digits)
 
 for num in range(len(digits)):
-    new_dictionary[digits[num]] = { 'french': fr[num], 'english': en[num]}
+    new_dictionary[digits[num]] = { 'french': fr[num], 'english': en[num], 'spanish': sp[num]}
 print(new_dictionary)
 
 
